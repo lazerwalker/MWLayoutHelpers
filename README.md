@@ -25,7 +25,12 @@ In general, there are two types of methods in here:
     frame.origin = CGPointMake(0, 0);
     someView.frame = frame;
 
-You can just call `[someView moveToPoint: CGPointMake(0, 0)];`.
+You can just call:
+
+    someView.x = 0;
+    someView.y = 0;
+
+Alternatively, you could also call `[someView moveToPoint:CGPointZero]`;
 
 For full usage, check out the `UIView+MWLayoutHelpers.h` header file.
 
