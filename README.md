@@ -7,7 +7,7 @@ This is a small category on UIView that adds a few methods to aid in manual fram
 There are already a million libraries like this out there; I can't make a strong argument why mine's inherently better than any other.
 
 ## Installation
-Using Cocoapods:
+Using CocoaPods:
 
     pod "MWLayoutHelpers"
 
